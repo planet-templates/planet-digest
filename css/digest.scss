@@ -1,0 +1,126 @@
+// use  sass digest.scss digest.css
+//  or  sass --watch digest.scss:digest.css
+
+
+$primary-color:   #0b0b0b;          //  black for title, etc.
+$secondary-color: #777777;   // grey-ish
+
+$link-color:          #8b0000;  // darkred; see wikipedia web colors
+$link-visited-color:  #b22222;  // firebrick (red); see wikipedia web colors
+
+
+$small-font-size: 12px;
+
+
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"Trebuchet MS",sans-serif;;
+  color:            $primary-color;
+  background-color: #fbfbfb;
+  font-size:       15px;
+}
+
+.container {
+  margin: 60px 60px 60px 60px;  // top right bottom left
+}
+
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+.small {
+  font-size: $small-font-size;
+}
+
+
+.masthead {
+  h1 { font-size: 5em;
+       margin-bottom: 0;
+       margin-top: 0;
+     }
+}
+
+.contents {
+  
+   ol { color: $secondary-color; }
+   
+   .item-feed-title {
+      font-size: $small-font-size;
+      
+      a {
+        color: $secondary-color;
+        &:visited {
+          color: $secondary-color;
+        }
+      }
+   }
+
+   .item-published {
+      font-size: $small-font-size;    
+   }
+   
+}
+
+.item {
+  .item-header {
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 0;
+    }
+
+    .item-feed-title {
+       color: $secondary-color;
+       font-size: $small-font-size;
+
+      a {
+        color: $secondary-color;
+        &:visited {
+          color: $secondary-color;
+        }
+      }
+    }
+    .item-published {
+       color: $secondary-color;
+       font-size: $small-font-size;
+    }
+  }
+ 
+   .item-content,
+   .item-summary
+  {
+
+     font-size: 15px;
+
+     h1, h2, h3, h4, h5, h6 {
+       font-size: 100%;   // 15px
+     }
+  }
+}
+
+
+////////////////
+//
+// cleanup
+
+div.feedflare { display: none; }
+
+///////////////
+// todo:
+//
+//  style code inline and block
+//  style blockquote!
+//  style hr!
+
+

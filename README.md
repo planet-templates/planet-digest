@@ -34,7 +34,7 @@ Listing something like:
 
 Showtime! Let's use the `-t/--template` switch to build a sample Planet Ruby. Example:
 
-     $ pluto build ruby.yml --template digest     or
+     $ pluto build ruby.ini --template digest     or
      $ pluto b ruby -t digest
 
 Open up the generated planet page `ruby.digest.html` in your browser. Voila. That's it.
