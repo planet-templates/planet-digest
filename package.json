@@ -1,0 +1,21 @@
+{
+  "name": "planet-digest",
+  "version": "0.1.0",
+  "description": "digest - planet template pack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/planet-templates/planet-digest.git"
+  },
+  "keywords": [
+    "planet",
+    "pluto",
+    "digest",
+    "planet-templates"
+  ],
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/planet-templates/planet-digest/issues"
+  },
+  "homepage": "https://github.com/planet-templates/planet-digest"
+}

@@ -21,7 +21,7 @@ If you want to try it yourself, install (fetch) the new template pack. Issue the
 Or as an alternative clone the template pack using `git`. Issue the commands:
 
     $ cd ~/.pluto
-    $ git clone git://github.com/feedreader/pluto.digest.git
+    $ git clone git://github.com/planet-templates/planet-digest.git
 
 To check if the new template got installed, use the `list` command:
 
